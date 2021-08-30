@@ -80,7 +80,7 @@ export LANG=en_US.UTF-8
 source $ZSH/oh-my-zsh.sh
 
 NEWLINE=$'\n'
-PROMPT=$PROMPT${NEWLINE}'$(kube_ps1) '
+PROMPT=$PROMPT${NEWLINE}'[%*]$(kube_ps1) '
 
 # User configuration
 
