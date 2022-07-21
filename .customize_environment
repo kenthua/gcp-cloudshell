@@ -7,5 +7,5 @@ if [ -f $file ] ; then
 fi
 
 apt-get update
-apt-get -qq install zsh
+apt-get -qq install zsh bat
 chsh -s /bin/zsh kenthua
