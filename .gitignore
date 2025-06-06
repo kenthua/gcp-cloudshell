@@ -3,4 +3,4 @@
 !.gitignore
 !.customize_environment
 !.kubectl_aliases
-!.profile
+!.profile.secrets
